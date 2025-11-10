@@ -21,12 +21,15 @@ const Hero: FC = () => {
             <div className="landing__content">
               <div className="landing__hero-grid">
                 <div className="landing__intro">
-                  <p className="landing__eyebrow">Full-Stack Developer</p>
-                  <h1 className="landing__name">Victor Bash</h1>
+                  <div className="landing__header">
+                    <p className="landing__eyebrow">Full-Stack Developer</p>
+                    <h1 className="landing__name">Victor Bash</h1>
+                  </div>
                   
                   <p className="landing__lead">
-                    21-year-old developer specializing in the complete lifecycle of modern web applications.
-                    I focus on constructing reliable, scalable full-stack systems that solve real problems.
+                    Specializing in the complete lifecycle of modern web applications—from 
+                    concept to deployment. I build reliable, scalable systems that solve 
+                    real-world problems with clean, maintainable code.
                   </p>
 
                   <Socials />
