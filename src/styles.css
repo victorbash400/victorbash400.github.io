@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 :root {
   --bg: #f8fafc;
   --bg-secondary: #f1f5f9;
@@ -21,8 +23,6 @@
   --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   --font-mono: "JetBrains Mono", "SF Mono", "Monaco", "Cascadia Code", "Roboto Mono", monospace;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 *,
 *::before,
@@ -2401,10 +2401,14 @@ body {
     margin: 32px auto 60px;
     padding: 20px 24px;
     border-radius: 20px;
+    width: 100%;
+    max-width: 100%;
   }
   
   .landing__socials-nav {
     gap: 10px;
+    justify-content: center;
+    width: 100%;
   }
   
   .landing__social-link {
@@ -2537,11 +2541,13 @@ body {
   .landing__hero-grid {
     grid-template-columns: 1fr;
     gap: 48px;
+    justify-items: center;
   }
 
   .landing__intro {
     align-items: center;
     text-align: center;
+    width: 100%;
   }
 
   .landing__toolset {
@@ -2560,6 +2566,7 @@ body {
   .landing__terminal-section {
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   .landing__badge {
