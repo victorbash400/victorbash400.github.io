@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
     "composite": true,
+    "target": "ESNext",
+    "lib": ["ESNext"],
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true
+    "skipLibCheck": true,
+    // Allow emit in project references to avoid TS warning; vite build handles bundling.
+    "noEmit": false
   },
   "include": ["vite.config.ts"]
 }
