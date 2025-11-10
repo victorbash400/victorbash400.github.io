@@ -20,37 +20,6 @@ const Socials: FC = () => {
       <nav className="landing__socials-nav" aria-label="Social media">
         {allSocials.map((link, index) => {
           const Icon = iconMap[link.icon];
-          
-          // Use GIF for GitHub, icons for others
-          if (link.icon === "Github") {
-            return (
-              <a
-                key={link.label}
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="landing__social-link"
-                aria-label={link.label}
-                title={link.label}
-                data-tooltip={link.label}
-                style={{ 
-                  '--i': index,
-                  background: 'transparent',
-                  border: 'none',
-                  padding: 0,
-                } as React.CSSProperties}
-              >
-                <img 
-                  src="/assets/icons8-github.gif" 
-                  alt="GitHub" 
-                  width={44} 
-                  height={44}
-                  style={{ display: 'block' }}
-                />
-              </a>
-            );
-          }
-          
           return Icon ? (
             <a
               key={link.label}
