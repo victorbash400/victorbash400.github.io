@@ -1,29 +1,31 @@
 import type { FC } from "react";
-import logo from "../../assets/Perfil.jpeg";
+import avatar from "../../assets/Perfil.jpeg";
+import codeGif from "../../assets/icons8-code.gif";
 
 const Header: FC = () => {
   return (
     <header className="site-header">
       <div className="container">
-        <div className="header__inner">
-          <div className="header__brand">
-            <img src={logo} alt="Victor Bash" className="header__avatar" />
-            <div className="header__info">
-              <span className="header__name">Victor Bash</span>
-              <span className="header__tagline">Full-Stack Developer</span>
+        <div className="site-header__inner">
+          <a className="site-header__brand" href="#top" aria-label="Victor Bash home">
+            <span className="site-header__logo">
+              <img src={avatar} alt="Victor Bash" />
+            </span>
+            <span className="site-header__title">Victorbash</span>
+          </a>
+
+          <div className="site-header__right-group">
+            <div className="site-header__gif">
+              <img src={codeGif} alt="Animated coding icon" style={{ width: '45px', height: 'auto' }} />
             </div>
+
+            <nav className="site-header__nav" aria-label="Primary">
+              <span className="site-header__pill">TypeScript</span>
+              <span className="site-header__pill">Python</span>
+              <span className="site-header__pill">Rust</span>
+              <span className="site-header__pill">C</span>
+            </nav>
           </div>
-          <nav className="header__nav">
-            <a className="nav-link" href="https://github.com/victorbash400" target="_blank" rel="noreferrer">
-              GitHub
-            </a>
-            <a className="nav-link" href="https://devpost.com/victorbash400780" target="_blank" rel="noreferrer">
-              Devpost
-            </a>
-            <a className="nav-link nav-link--primary" href="mailto:victorbash400@gmail.com">
-              Contact Me
-            </a>
-          </nav>
         </div>
       </div>
     </header>
