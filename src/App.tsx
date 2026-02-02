@@ -130,18 +130,18 @@ const App = () => {
 
           <div className="grid md:grid-cols-2 gap-12">
             {/* Aqualabs Card */}
-            <a href="https://aqualabs.tech" className="group block bg-white border border-accent rounded-3xl overflow-hidden hover:shadow-xl transition-all duration-500">
+            <a href="https://aqualabs.tech" className="group block bg-secondary border border-accent rounded-3xl overflow-hidden hover:shadow-xl transition-all duration-500">
               <div className="p-8 md:p-12 flex flex-col h-full justify-between gap-8">
                 <div>
                   <div className="flex justify-between items-start mb-6">
-                    <span className="font-sans text-2xl font-bold">Aqualabs</span>
+                    <span className="font-sans text-2xl font-bold text-foreground">Aqualabs</span>
                     <span className="px-3 py-1 text-xs font-bold uppercase tracking-widest bg-primary/10 text-primary rounded-full">Founder & CEO</span>
                   </div>
                   <p className="font-serif text-lg text-foreground/70 leading-relaxed">
                     A technology company dedicated to solving food security in Africa. We design and deploy closed-loop aquaculture systems that are automated, data-driven, and climate-resilient.
                   </p>
                 </div>
-                <div className="pt-8 border-t border-accent/50">
+                <div className="pt-8 border-t border-accent">
                   <span className="font-sans text-sm font-bold border-b border-foreground/20 pb-0.5 group-hover:border-primary transition-colors">View Company &rarr;</span>
                 </div>
               </div>
