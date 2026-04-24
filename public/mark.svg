@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Victor Bash mark">
+  <rect x="10" y="10" width="20" height="20" rx="5" fill="#D97757"/>
+  <rect x="34" y="10" width="20" height="20" rx="5" fill="#B7C7D8"/>
+  <rect x="10" y="34" width="20" height="20" rx="5" fill="#B9C6A6"/>
+  <rect x="34" y="34" width="20" height="20" rx="5" fill="#F4EFE4" stroke="#D8D0C2" stroke-width="1.5"/>
+</svg>

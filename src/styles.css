@@ -3,64 +3,50 @@
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-primary: var(--primary);
-  --color-secondary: var(--secondary);
-  --color-accent: var(--accent);
-  --color-sage: var(--sage);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
 
-  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-mono: var(--font-geist-mono);
-  --font-serif: "Heldane Display", "Georgia", "Times New Roman", serif;
-
-  --animate-float: float 6s ease-in-out infinite;
-
-  @keyframes float {
-
-    0%,
-    100% {
-      transform: translateY(0);
-    }
-
-    50% {
-      transform: translateY(-20px);
-    }
-  }
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "Newsreader", "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
 }
 
 :root {
-  /* Anthropic-inspired Theme */
-  --background: #FAF9F5;
-  /* Ivory Light - Main Background */
-  --foreground: #141413;
-  /* Slate Dark - Text & Headers */
-
-  --primary: #D97757;
-  /* Terracotta - Buttons & Accents */
-  --secondary: #F0EEE6;
-  /* Ivory Medium - Section Backgrounds */
-
-  --accent: #E6E4DD;
-  /* Slightly darker ivory for borders/lines */
-  --sage: #8DA098;
-  /* Subtle accent for variety if needed */
+  --background: #f7f3ea;
+  --foreground: #161514;
+  --muted: #6d675e;
+  --line: rgba(22, 21, 20, 0.08);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #1C1C1A;
-    --foreground: #F0EEE6;
-    --primary: #E08A6E;
-    --secondary: #2A2A28;
-    --accent: #333330;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
+  margin: 0;
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-serif), serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+li {
+  text-wrap: pretty;
 }
 
 h1,
@@ -69,20 +55,14 @@ h3,
 h4,
 h5,
 h6 {
+  margin: 0;
   font-family: var(--font-sans), sans-serif;
-  letter-spacing: -0.02em;
 }
 
-/* Glassmorphism utilities */
-.glass {
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+p {
+  margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  .glass {
-    background: rgba(2, 6, 23, 0.7);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  }
+#root {
+  min-height: 100vh;
 }

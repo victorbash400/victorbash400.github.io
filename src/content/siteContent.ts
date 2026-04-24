@@ -1,125 +1,60 @@
-export const socialLinks = [
+export const intro = {
+  eyebrow: "About",
+  title: "I work across software, operations, and food systems.",
+  body:
+    "The common thread is infrastructure that holds up over time.",
+  note:
+    "Most of my current thinking goes into Aqualabs, alongside writing and research into how better systems get designed from the ground up. I'm based in Kenya, studying at JKUAT.",
+};
+
+export const focusAreas = [
   {
-    label: "Email (Main)",
-    value: "victorbash400@gmail.com",
-    href: "mailto:victorbash400@gmail.com",
-    icon: "Mail",
-    type: "email",
+    title: "Aqualabs",
+    copy:
+      "Aqualabs is my main long-term project — a research-first aquaculture company built around tighter operations, better systems, and more reliable food production. The goal is infrastructure that can actually be run well, at scale, in a real context.",
+    href: "https://aqualabs.tech",
+    label: "Visit Aqualabs",
   },
   {
-    label: "Email (Alt)",
-    value: "victorbash400@outlook.com",
-    href: "mailto:victorbash400@outlook.com",
-    icon: "MailOpen",
-    type: "email",
+    title: "Software",
+    copy:
+      "Beyond that, I design and build software with a bias for clarity and structure. Interfaces that feel deliberate and quiet. Products that earn their complexity.",
+    href: "https://github.com/victorbash400",
+    label: "View GitHub",
+  },
+  {
+    title: "Writing and research",
+    copy:
+      "A lot of my thinking ends up in notes, papers, and technical writing — work that can be explained clearly and audited later.",
+    href: "https://medium.com/@victorbash",
+    label: "Read notes",
+  },
+];
+
+export const philosophy = [
+  "I'm drawn to technical work that stays legible after the excitement wears off. Systems with structure, real constraints, and a reason for existing beyond the initial idea.",
+  "The instinct underneath most of what I build is the same: remove noise, make the moving parts clearer, and get closer to something that can be operated over time. That applies to software, to design, and to Aqualabs.",
+];
+
+export const contactLinks = [
+  {
+    label: "Email",
+    value: "victorbash400@gmail.com",
+    href: "mailto:victorbash400@gmail.com",
   },
   {
     label: "GitHub",
     value: "@victorbash400",
     href: "https://github.com/victorbash400",
-    icon: "Github",
-    type: "social",
+  },
+  {
+    label: "X",
+    value: "@notvictorbash",
+    href: "https://x.com/notvictorbash",
   },
   {
     label: "Instagram",
     value: "@victorbash.dev",
     href: "https://instagram.com/victorbash.dev",
-    icon: "Instagram",
-    type: "social",
-  },
-  {
-    label: "X (Twitter)",
-    value: "@notvictorbash",
-    href: "https://x.com/notvictorbash",
-    icon: "Twitter",
-    type: "social",
-  },
-  {
-    label: "Devpost",
-    value: "@victorbash400780",
-    href: "https://devpost.com/victorbash400780",
-    icon: "Trophy",
-    type: "social",
-  },
-];
-
-export const highlightItems = [
-  {
-    label: "Frontend",
-    detail: "React, TypeScript, design systems, and motion that respects focus.",
-  },
-  {
-    label: "Backend",
-    detail: "Node.js, Fastify, GraphQL, Postgres — reliable services with observability.",
-  },
-  {
-    label: "Currently",
-    detail: "Shipping calm developer experiences and production-ready UIs at Oasis.",
-  },
-];
-
-export const terminalSnippets = [
-  {
-    id: "about",
-    filename: "about.sh",
-    prompt: "victor@dev",
-    command: "cat info.txt",
-    output: [
-      "Full-stack developer & UI enthusiast",
-      "Building products that feel effortless",
-      "TypeScript · React · Node.js · Design Systems",
-      "Currently @ Oasis",
-    ],
-  },
-  {
-    id: "skills",
-    filename: "skills.sh",
-    prompt: "victor@dev",
-    command: "ls -la ~/skills",
-    output: [
-      "Frontend: React, TypeScript, Next.js, Vite",
-      "Backend: Node.js, Fastify, GraphQL, Postgres",
-      "Tools: Git, Docker, Figma, VS Code",
-      "Design: UI/UX, Design Systems, Accessibility",
-    ],
-  },
-  {
-    id: "contact",
-    filename: "contact.sh",
-    prompt: "victor@dev",
-    command: "echo $CONTACT_INFO",
-    output: [
-      "📧 victorbash400@gmail.com",
-      "💼 Available for freelance & product roles",
-      "🌍 Remote friendly · Open to collaboration",
-      "⚡ Response time: Usually within 24h",
-    ],
-  },
-  {
-    id: "status",
-    filename: "status.sh",
-    prompt: "victor@dev",
-    command: "git status",
-    output: [
-      "On branch: building-awesome-things",
-      "Current project: Developer tooling @ Oasis",
-      "Next up: Exploring AI-powered workflows",
-      "Always learning, always shipping ✨",
-    ],
-  },
-];
-
-export const focusAreas = [
-  {
-    title: "Product-ready surfaces",
-    copy: "Pixel-precise interfaces that stay accessible, fast, and crystal clear on every screen.",
-  },
-  {
-    title: "Well-shaped services",
-    copy: "Typed APIs with tests, tracing, and CI/CD so launches feel safe, not scary.",
-  },
-  {
-    title: "Developer experience",
-    copy: "Tooling, docs, and automation that keep teams unblocked and shipping weekly.",
   },
 ];
