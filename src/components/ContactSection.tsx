@@ -16,11 +16,10 @@ export function ContactSection() {
         <div className="space-y-4">
           <p className="text-xs font-medium uppercase tracking-[0.26em] text-white/42">Contact</p>
           <h2 className="font-sans text-4xl leading-[0.98] tracking-[-0.04em] text-white md:text-5xl">
-            Reach out if the work overlaps.
+            Reach out if anything here overlaps with what you're doing.
           </h2>
           <p className="max-w-md text-base leading-[1.8] text-white/68 md:text-lg">
-            I am most interested in conversations around systems, product design, operations,
-            infrastructure, and food technology.
+            Email is the best place to start, but the other links are here too.
           </p>
         </div>
 

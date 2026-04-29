@@ -1,46 +1,47 @@
 export const intro = {
   eyebrow: "About",
-  title: "I work across software, operations, and food systems.",
+  title: "Hey, I'm Victor.",
   body:
-    "The common thread is infrastructure that holds up over time.",
+    "I build things, mainly software and Aqualabs, an aquaculture company I'm building from scratch here in Kenya.",
   note:
-    "Most of my current thinking goes into Aqualabs, alongside writing and research into how better systems get designed from the ground up. I'm based in Kenya, studying at JKUAT.",
+    "I'm also studying at JKUAT on the side.",
 };
 
 export const focusAreas = [
   {
     title: "Aqualabs",
     copy:
-      "Aqualabs is my main long-term project — a research-first aquaculture company built around tighter operations, better systems, and more reliable food production. The goal is infrastructure that can actually be run well, at scale, in a real context.",
+      "Aqualabs is my main project, a company focused on building better systems for fish farming. Research-first, real operations, actually being built.",
     href: "https://aqualabs.tech",
     label: "Visit Aqualabs",
   },
   {
     title: "Software",
     copy:
-      "Beyond that, I design and build software with a bias for clarity and structure. Interfaces that feel deliberate and quiet. Products that earn their complexity.",
+      "I build software whenever something interests me enough to start. Most of it lives on GitHub.",
     href: "https://github.com/victorbash400",
     label: "View GitHub",
   },
   {
-    title: "Writing and research",
+    title: "Writing",
     copy:
-      "A lot of my thinking ends up in notes, papers, and technical writing — work that can be explained clearly and audited later.",
+      "I write about things I'm thinking about on Medium. Not on a schedule, just when something is worth writing down.",
     href: "https://medium.com/@victorbash",
-    label: "Read notes",
+    label: "Read Medium",
   },
 ];
 
-export const philosophy = [
-  "I'm drawn to technical work that stays legible after the excitement wears off. Systems with structure, real constraints, and a reason for existing beyond the initial idea.",
-  "The instinct underneath most of what I build is the same: remove noise, make the moving parts clearer, and get closer to something that can be operated over time. That applies to software, to design, and to Aqualabs.",
+export const interests = [
+  "Audio gear. I have too many opinions about headphones and I'm not sorry.",
+  "I spend a lot of time building software just for fun, outside of anything serious.",
+  "Light gaming, a lot of YouTube, and design. I care about how things look and feel probably more than I should.",
 ];
 
 export const contactLinks = [
   {
     label: "Email",
-    value: "victorbash400@gmail.com",
-    href: "mailto:victorbash400@gmail.com",
+    value: "victorbash@aqualabs.tech",
+    href: "mailto:victorbash@aqualabs.tech",
   },
   {
     label: "GitHub",

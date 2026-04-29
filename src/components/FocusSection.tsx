@@ -1,6 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 
-import { focusAreas, philosophy } from "../content/siteContent";
+import { focusAreas } from "../content/siteContent";
 
 export function FocusSection() {
   return (
@@ -11,12 +11,16 @@ export function FocusSection() {
             What I'm building
           </p>
           <h2 className="max-w-xl font-sans text-4xl leading-[0.98] tracking-[-0.04em] text-foreground md:text-6xl">
-            The work is meant to hold up in a real operating context.
+            Aqualabs is the main thing. Software keeps happening around it.
           </h2>
           <div className="space-y-5 text-base leading-[1.85] text-foreground/70 md:text-lg">
-            {philosophy.map((item) => (
-              <p key={item}>{item}</p>
-            ))}
+            <p>
+              Aqualabs is where most of my current effort goes: fish farming systems, research,
+              operations, and the work needed to make it real.
+            </p>
+            <p>
+              I still build software whenever an idea is interesting enough to pull me in.
+            </p>
           </div>
         </div>
 
