@@ -4,14 +4,15 @@ import { intro } from "../content/siteContent";
 
 export function IntroHero() {
   return (
-    <section id="top" className="relative">
-      <div className="mx-auto grid max-w-6xl gap-12 px-6 py-16 md:px-10 md:py-24 lg:grid-cols-[1.1fr_0.9fr]">
+    <section id="top" className="section-panel section-panel--plain">
+      <div className="section-number" aria-hidden="true">01</div>
+      <div className="section-inner grid gap-12 lg:grid-cols-[1.1fr_0.9fr]">
         <div className="flex flex-col justify-between gap-10">
           <div className="space-y-6">
-            <p className="text-xs font-medium uppercase tracking-[0.26em] text-foreground/42">
+            <p className="section-kicker">
               {intro.eyebrow}
             </p>
-            <h1 className="max-w-3xl font-sans text-4xl leading-[1] tracking-[-0.05em] text-foreground md:text-6xl">
+            <h1 className="max-w-3xl font-sans text-4xl leading-[1] text-foreground md:text-6xl">
               {intro.title}
             </h1>
             <div className="max-w-2xl space-y-5 text-lg leading-[1.75] text-foreground/74 md:text-[1.24rem]">
@@ -22,7 +23,7 @@ export function IntroHero() {
         </div>
 
         <aside className="grid gap-5">
-          <figure className="overflow-hidden rounded-[2rem] bg-[#ebe5d8]">
+          <figure className="overflow-hidden rounded-[1.5rem] bg-[#ebe5d8] shadow-[0_24px_80px_rgba(22,21,20,0.12)]">
             <img
               src="/me.png"
               alt="Victor Bash portrait"
